@@ -1,0 +1,552 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>M. Calvin Amikonaka | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span>&lt;/&gt;</span> CALVIN
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+
+                <button class="theme-btn" id="theme-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+            </div>
+
+            <button class="menu-btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="container hero-container">
+
+                <div class="hero-content reveal">
+
+                    <span class="hero-tag">
+                        Hello, I'm
+                    </span>
+
+                    <h1>
+                        M. Calvin
+                        <span>Amikonaka</span>
+                    </h1>
+
+                    <h2>
+                        Informatics Student
+                        <span>&</span>
+                        <strong id="typing-text"></strong>
+                    </h2>
+
+                    <p class="hero-description">
+                        I'm passionate about Web Development,
+                        Data Analyst, and exploring the
+                        world of Machine Learning.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Projects
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="hero-image reveal">
+
+                    <div class="image-frame">
+                        <img src="miko.png"
+                             alt="M. Calvin Amikonaka">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>ABOUT ME</span>
+
+                    <h2>Who Am I?</h2>
+
+                </div>
+
+
+                <div class="about-container">
+
+                    <div class="about-text reveal">
+
+                        <p>
+                            Saya adalah mahasiswa Informatika yang memiliki
+                            ketertarikan dalam pengembangan web, Data 
+                            Analyst, dan teknologi digital.
+                        </p>
+
+                        <p>
+                            Saya senang mempelajari teknologi baru,
+                            membangun project, dan mengembangkan kemampuan
+                            programming melalui berbagai pengalaman.
+                        </p>
+
+
+                        <div class="about-info">
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                                <div>
+                                    <span>Education</span>
+                                    <strong>Informatics (S1)</strong>
+                                </div>
+
+                            </div>
+
+
+                            <div class="info-item">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                                <div>
+                                    <span>Location</span>
+                                    <strong>Jakarta, Indonesia</strong>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-card reveal">
+
+                        <div class="about-card-row">
+
+                            <i class="fa-solid fa-user"></i>
+
+                            <div>
+                                <span>Name</span>
+                                <strong>M. Calvin Amikonaka</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-card-row">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <div>
+                                <span>Email</span>
+                                <strong>camikonaka@gmail.com</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-card-row">
+
+                            <i class="fa-solid fa-code"></i>
+
+                            <div>
+                                <span>Focus</span>
+                                <strong>Web Development & Data Analysis</strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="about-card-row">
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            <div>
+                                <span>Status</span>
+                                <strong>Available for Projects</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="skills section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>MY SKILLS</span>
+
+                    <h2>Technologies & Tools</h2>
+
+                    <p>
+                        Technologies and tools that I have worked with
+                        and continue to learn.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid reveal">
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <span>Python</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code"></i>
+                        <span>VS Code</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="projects section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>MY PROJECTS</span>
+
+                    <h2>Featured Projects</h2>
+
+                    <p>
+                        Some of the projects I've worked on.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image">
+
+                            <img src="fixhome.jpeg"
+                                 alt="Seraya Coffee App">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>Seraya - Coffee Shop App</h3>
+
+                            <div class="project-tags">
+
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                            </div>
+
+                            <p>
+                                A mobile ordering application for
+                                coffee and food at Seraya Coffee.
+                            </p>
+
+                            <a href="https://github.com/konak-lys/coffe-station" class="project-link">
+
+                                View Project
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-image">
+
+                            <img src="game.jpeg"
+                                 alt="Game Development">
+                            
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>Roblox Game Development</h3>
+
+                            <div class="project-tags">
+
+                                <span>Roblox Studio</span>
+                                <span>LUA</span>
+
+                            </div>
+
+                            <p>
+                                A Roblox game project developed as part of my experience in game development and interactive programming.
+                                This project focuses on creating an engaging gameplay experience with interactive systems,
+                                game mechanics, and a user-friendly environment.
+                            </p>
+
+                            <a href="https://www.roblox.com/share?code=b33eca0d7c85dd43ab741768fbed40ec&type=ExperienceDetails&stamp=1790081374898" class="project-link">
+
+                                View Project
+
+                                <i class="fa-solid fa-arrow-right"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="projects-button reveal">
+
+                    <a href="#" class="btn btn-outline">
+
+                        View All Projects
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="education section" id="education">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span>EDUCATION</span>
+
+                    <h2>My Education</h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2018 — 2021</span>
+
+                            <h3>SMPN 135 Jakarta</h3>
+
+                            <p>Junior High School</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2021 — 2024</span>
+
+                            <h3>SMAN 12 Jakarta</h3>
+
+                            <p>Senior High School</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span>2024 — Present</span>
+
+                            <h3>Universitas Nasional</h3>
+
+                            <p>Informatics (S1)</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= js ================= -->
+        <script src="gerak.js"></script>
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-container reveal">
+
+                    <div class="contact-text">
+
+                        <span>GET IN TOUCH</span>
+
+                        <h2>Let's Work Together</h2>
+
+                        <p>
+                            Have a project in mind, a question,
+                            or just want to say hi?
+                            Feel free to reach out.
+                        </p>
+                        
+
+                        <a href="https://www.instagram.com/calvinamik?stkn=am1nb2oxNHl1ejhq" aria-label="Instagram" class = "instagram-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        
+                        <a href="https://wa.me/6285814484842"
+                        target="_blank"
+                        class= "whatsapp-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/calvin-amikonaka-104606439" aria-label="LinkedIn" class = "linkedin-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/konak-lys" aria-label="GitHub" class = "github-link">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>        
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+    <div class="container">
+        <p>
+            © 2026 M. Calvin Amikonaka. All rights reserved.
+        </p>
+    </div>
+</footer>
